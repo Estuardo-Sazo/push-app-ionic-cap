@@ -1,0 +1,6 @@
+{
+	"appId": "com.notification.demo",
+	"appName": "pushApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
