@@ -1,6 +1,16 @@
 {
-	"appId": "com.notification.demo",
-	"appName": "pushApp",
-	"webDir": "www",
-	"bundledWebRuntime": false
+  "appId": "com.notification.demo",
+  "appName": "pushApp",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  },
+  "cordova": {}
 }
